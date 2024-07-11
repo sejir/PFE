@@ -1,0 +1,86 @@
+/* Custom CSS classes */
+
+.borders {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(233, 115, 115, 0.1);
+  }
+  
+  .card {
+    overflow: hidden;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .lightItalic {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .particulier {
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .no-shadow {
+    box-shadow: none !important;
+  }
+  
+  .radius-30 {
+    border-radius: 30px !important;
+  }
+  
+  .font-12 {
+    font-size: 12px;
+  }
+  
+  .font-22 {
+    font-size: 22px;
+  }
+  
+  .text-main {
+    text-align: center;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+  }
+  
+  .jumbotron .btn {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+  }
+  
+  footer {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }
+  

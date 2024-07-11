@@ -1,0 +1,28 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  padding-top: 20px; /* Adjust as needed */
+}
+
+.dashboard-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.dashboard-chart-container {
+  max-width: 100%; /* Ensure charts are responsive */
+  margin: 0 auto;
+}
+
+.dashboard-table {
+  margin-top: 20px;
+}

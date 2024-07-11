@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+.navbar-logo {
+  height: 60px; /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  padding: 10px 15px;
+}
+
+.navbar-profile-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.custom-navbar {
+  background-color: #0056b3;
+  height: 70px; /* Ensure the height matches the padding-top set in App.js */
+  z-index: 1030; /* Ensure it is above other content */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link {
+      font-size: 1rem; /* Adjust for smaller screens */
+  }
+
+  .navbar-profile-image {
+      height: 30px;
+      width: 30px;
+  }
+}

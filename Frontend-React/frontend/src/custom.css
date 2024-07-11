@@ -1,0 +1,55 @@
+/* custom.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .jumbotron {
+    font-family:Serif;
+
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .jumbotron .btn {
+    font-family:Serif;
+    background-color: #ff6f61;
+    border: none;
+  }
+  
+  .card {
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .card img {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .btn.particulier {
+    background-color: #ff6f61;
+    border: none;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: #6c757d;
+  }
+  

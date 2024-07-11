@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-profile-image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.main-content {
+    padding-top: 0px;
+}
+
+.container {
+    max-width: 1200px;
+}

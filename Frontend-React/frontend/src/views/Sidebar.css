@@ -1,0 +1,104 @@
+/* Sidebar.css */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #c7d3e1;
+    color: #ffffff;
+    padding-top: 1rem;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.sidebar-header {
+    padding: 1rem;
+    text-align: center;
+    background-color: #0056b3;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    height: 70px;
+}
+
+.sidebar ul {
+    list-style-type: none;  
+    padding-left: 0;
+    margin-top: 2rem;
+}
+
+.sidebar-link {
+    color: #ffffff; /* White text color */
+    font-family: serif;
+    text-decoration: none;
+    padding: 1rem; /* Increased padding for spacing */
+    display: block;
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Thicker text */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+    text-align: center;
+    background-color: #ff6f61;
+    margin-top: 40px; /* Reduced margin for better spacing */
+}
+
+.sidebar-link:hover {
+    background-color: #dfdfdf;
+    color: #ffffff; /* Change text color on hover */
+}
+
+.sidebar-link.active {
+    background-color: #71aff2;
+    font-weight: bold;
+}
+
+.sidebar h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.sidebar-content {
+    flex: 1; /* Allow sidebar content to take remaining space */
+    margin-top: 20px; /* Adjusted margin to move content down */
+    text-align: center; /* Center-align content */
+}
+
+.sidebar-logo {
+    margin-top: 300px; /* Add margin to move the logo/image down */
+}
+
+
+
+.main-content {
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+}
+
+.sidebar {
+    width: 250px;
+    transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+    width: 100px;
+}
+
+.toggle-sidebar-btn {
+    font-family: Serif;
+    background-color: #ff6f61; /* Adjusted button background color */
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1rem; /* Increased padding */
+    border-radius: 5px;
+    margin: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Thicker text */
+}
+
+.toggle-sidebar-btn:hover {
+    background-color: #d84315; /* Darker shade for hover */
+}
